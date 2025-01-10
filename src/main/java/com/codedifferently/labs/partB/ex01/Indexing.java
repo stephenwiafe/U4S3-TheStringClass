@@ -5,6 +5,7 @@ public class Indexing {
         String response = "";
         String myStr = "Hello planet earth, you are a great planet.";
         /* Your code goes here*/
+        response = myStr.replace("planet", "world");
 
         return response;
     }
@@ -14,5 +15,3 @@ public class Indexing {
         System.out.println(indexOutput);
     }
 }
-
-

@@ -10,6 +10,7 @@ public class ConcatenateExample {
 
         return response;
     }
+
     public static void main(String[] args) {
         String concat = concat();
         System.out.print(concat);
